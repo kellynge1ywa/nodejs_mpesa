@@ -14,6 +14,10 @@ app.use(cors());
 
 app.use('/api', lipaNaMpesaRoutes);
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the Lipa Na Mpesa API!');
+});
+
 app.listen(PORT, ()=>{
     console.log(`The app is running on port: http://localhost:${PORT}`);
 })
