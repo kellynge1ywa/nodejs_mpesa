@@ -1,0 +1,22 @@
+{
+  "name": "mpesa_integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.1.9",
+    "request": "^2.88.2"
+  }
+}
